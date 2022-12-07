@@ -1,7 +1,7 @@
-all: calories
+all: stack
 
-calories: calories.cpp
-	g++ -o calories.out -O3 calories.cpp
+stack: stack.cpp
+	g++ -o stack.out -O3 stack.cpp
 
 clean:
-	rm calories.out
+	rm stack.out

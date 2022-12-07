@@ -1,7 +1,7 @@
-all: calories
+all: rucksacks
 
-calories: calories.cpp
-	g++ -o calories.out -O3 calories.cpp
+rucksacks: rucksacks.cpp
+	g++ -o rucksacks.out -O3 rucksacks.cpp
 
 clean:
-	rm calories.out
+	rm rucksacks.out

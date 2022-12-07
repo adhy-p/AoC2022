@@ -1,7 +1,7 @@
-all: calories
+all: tuning
 
-calories: calories.cpp
-	g++ -o calories.out -O3 calories.cpp
+tuning: tuning.cpp
+	g++ -o tuning.out -O3 tuning.cpp
 
 clean:
-	rm calories.out
+	rm tuning.out

@@ -1,7 +1,7 @@
-all: calories
+all: pairs
 
-calories: calories.cpp
-	g++ -o calories.out -O3 calories.cpp
+pairs: pairs.cpp
+	g++ -o pairs.out -O3 pairs.cpp
 
 clean:
-	rm calories.out
+	rm pairs.out
