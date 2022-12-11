@@ -1,7 +1,7 @@
-all: calories
+all: nospace
 
-calories: calories.cpp
-	g++ -o calories.out -O3 calories.cpp
+nospace: nospace.cpp
+	g++ -o nospace.out -O3 nospace.cpp
 
 clean:
-	rm calories.out
+	rm nospace.out

@@ -1,7 +1,7 @@
-all: calories
+all: treehouse
 
-calories: calories.cpp
-	g++ -o calories.out -O3 calories.cpp
+treehouse: treehouse.cpp
+	g++ -o treehouse.out -O3 treehouse.cpp
 
 clean:
-	rm calories.out
+	rm treehouse.out

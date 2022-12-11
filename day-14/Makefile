@@ -1,7 +1,7 @@
-all: calories
+all: template
 
-calories: calories.cpp
-	g++ -o calories.out -O3 calories.cpp
+template: template.cpp
+	g++ -o template.out -O3 template.cpp
 
 clean:
-	rm calories.out
+	rm template.out
