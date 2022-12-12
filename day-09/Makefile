@@ -1,7 +1,7 @@
-all: template
+all: rope
 
-template: template.cpp
-	g++ -o template.out -O3 template.cpp
+rope: rope.cpp
+	g++ -o rope.out -O3 rope.cpp
 
 clean:
-	rm template.out
+	rm rope.out
